@@ -6,7 +6,7 @@
 #Number checker that checks whether the value inserted is more than 0
 #If the number is less than 0, it would display a error message
 def num_check(question):
-    error= f"Please eneter a value that is more the 0 \n"
+    error= f"Please enter a value that is more the 0 \n"
     while True:
        try:
             response=float(input(question))
