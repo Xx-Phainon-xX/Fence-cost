@@ -22,7 +22,7 @@ def num_check(question):
 name=input("Welcome to my fence cost calculator, what is your name? ")
 
 #loop code so the program can go on and on if the user desires
-#If they don't want to continue they press any other key to quit
+#If they don't want to continue, they can press any other key to quit
 keep_going= ""
 while keep_going == "":
   #These variables get the value of the width, length, and cost
@@ -37,6 +37,9 @@ while keep_going == "":
   #outputs the price for the user to see
   print(f"{name}, your cost for a fence with a perimeter of {perimeter}m is ${price}")
   keep_going=(input("Please press enter if you wish to continue or any key to quit"))
+  
+#Thank the user for using my code after they chose to quit
+print("Thank you for using my fence cost calculator")
 
   
 
